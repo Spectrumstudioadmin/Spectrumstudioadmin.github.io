@@ -40,6 +40,9 @@ a{
 	left: 30%;
 	top: 12%;
 }
+.logo_anim img{
+	width: 65%;
+}
 .popup-bg{
 	position: fixed;
 	width: 100%;
@@ -302,15 +305,110 @@ p{
 	float: right;
 }
 
-@media screen and (max-width:980px){
-.mobi_block{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    z-index: 3;
-    visibility: visible;
-}
+@media screen and (max-width:1000px){
+	#header{
+		background-repeat: repeat;
+	}
+	.logo{
+		width: 30%;
+	}
+	.logo_anim{
+		left: 1%;
+		top: 30%;
+	}
+	.logo_anim img{
+		width: 100%;
+	}
+	.my_foto img{
+		width: 100%;
+		margin-top: 0% ;
+	}
+	.content_text{
+		width: 100%;
+		height: 60%;
+		padding-top: 10%;
+	}
+	.content_text p1{
+		font-size: 110%;
+		font-family: 'Ubuntu', Regular;
+	}
+	.content_text p2{
+		font-size: 100%;
+		font-family: 'Silkscreen', cursive;
+	}
+	.content_text p3{
+		font-size: 70%;
+		font-family: 'Silkscreen', cursive;
+	}
+	#portfolio p3{
+		font-size: 200%;
+	}
+	.circle{
+		position: absolute;
+		width: 40%;
+		top: 4%;
+		left: 10%;
+	}
+	.portf{
+		width: 55%;
+		float: left;
+		margin-left: 22.5%;
+		margin-top: 5%;
+	}
+	.pf_block{
+		width: 100%;
+		height: 30%;
+	}
+	.pf_block_img{
+		width: 50%;
+		height: 50%;
+	}
+	.pf_block_info{
+		width: 100%;
+		height: 90%;
+		text-align: center;
+	}
+	.pf_block_info p1{
+		font-size: 150%;
+		opacity: 1;
+	}
+	.pf_block_info p2{
+		font-size: 120%;
+		opacity: 1;
+	}
+	.pf_top{
+		width: 100%;
+		height: 10%;
+	}
+	#block_info{
+		height: 90% ;
+	}
+	.del{
+		width: 95%;
+		margin: 2.5%;
+	}
+	.order{
+		position: absolute;
+		right: 0;
+		top: 83%;
+		width: 100%;
+	}
+	.del_text{
+		margin-top: 3%;
+		float: right;
+		width: 100%;
+		font-size: 80%;
+	}
+	#footer{
+		top: 452%;
+	}
+	p{
+		margin-top: 15%;
+	}
+	.logo_footer{
+		width: 30%;
+	}
+	.ico{
+		width: 10%;
+	}
 }
