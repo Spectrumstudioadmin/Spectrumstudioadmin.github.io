@@ -13,16 +13,22 @@
 .pre{
     width: 100%;
 }
+.pre_mobi{
+    display: none;
+    width: 100%;
+}
 .done{
     opacity: 0;
     visibility: hidden;
 }
 
 @media screen and (max-width:980px){
-  .pre{
-    margin-top: 80%;
-    width: 100%;
+  .pre_mobi{
+    display: inline;
     position: absolute;
-}
+    }
+    .pre{
+        display: none;
+    }
 }
 
