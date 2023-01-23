@@ -34,7 +34,7 @@ a{
 	margin-top: 3%;
 	margin-left: 10% ;
 	float: left;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
 	font-size: 110%;
 	color: white;
 }
@@ -103,6 +103,10 @@ a{
 
 	//*background-color: white;*//
 }
+.text_con{
+	margin-left: 25%;
+	width: 50%;
+}
 .content_text p1{
 	font-size: 300%;
 	font-family: 'Ubuntu', Regular;
@@ -113,11 +117,42 @@ a{
 }
 .content_text p2{
 	font-size: 250%;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
 }
 .content_text p3{
 	font-size: 130%;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
+}
+.my_foto_pf img{
+	float: right;
+	width: 50%;
+	margin-top: 0.3% ;
+}
+.content_text_pf{
+	width: 50%;
+	height: 60%;
+	float: left;
+	text-align: center;
+	color: white;
+	padding-top: 10%;
+
+	//*background-color: white;*//
+}
+.content_text_pf p1{
+	font-size: 300%;
+	font-family: 'Ubuntu', Regular;
+}
+.line_text_pf{
+	border-bottom: 3px solid #ccc;
+	padding-bottom: 1%;
+}
+.content_text_pf p2{
+	font-size: 250%;
+	font-family: 'Rowdies', cursive;
+}
+.content_text_pf p3{
+	font-size: 130%;
+	font-family: 'Rowdies', cursive;
 }
 #portfolio{
 	text-align: center;
@@ -132,7 +167,7 @@ a{
 #portfolio p3{
 	padding: 0%;
 	font-size: 170%;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
 	color: white;
 	border-bottom: 0px solid #ccc;
 	border-top: 0px solid #ccc;
@@ -168,36 +203,23 @@ a{
 }
 .pf_block_info{
 	float: left;
-	width: 0%;
+	width: 75%;
 	height: 100%;
 	text-align: center;
 	background-color: rgba(0,0,0,0.1);
 	transition: .7s ease-in-out;
 }
-.pf_block:hover .pf_block_info{
-	width: 75%;
-}
 .pf_block_info p1{
-	font-size: 0%;
-	font-family: 'Silkscreen', cursive;
-	color: white;
-	opacity: 0;
-	transition: 1s ease-in-out;
-}
-.pf_block:hover .pf_block_info p1{
-	opacity: 1;
 	font-size: 320%;
+	font-family: 'Rowdies', cursive;
+	color: white;
+	transition: 1s ease-in-out;
 }
 .pf_block_info p2{
-	font-size: 0%;
-	font-family: 'Silkscreen', cursive;
-	color: white;
-	opacity: 0;
-	transition: 1s ease-in-out;
-}
-.pf_block:hover .pf_block_info p2{
 	font-size: 150%;
-	opacity: 1;
+	font-family: 'Rowdies', cursive;
+	color: white;
+	transition: 1s ease-in-out;
 }
 #block_info{
 	width: 100%;
@@ -208,10 +230,11 @@ a{
 }
 .del_text{
 	margin-top: 3%;
+	margin-right: 15%;
 	float: right;
-	width: 45%;
+	width: 30%;
 	font-size: 140%;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
 	color: white;
 }
 .del{
@@ -230,7 +253,7 @@ a{
 	padding-right: 6%;
 	text-align: center;
 	font-size: 180%;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
 	width: 15%;
   	color: #FFF;
   	transition: all 1.5s;
@@ -293,7 +316,7 @@ a{
 }
 p{
 	font-size: 100%;
-	font-family: 'Silkscreen', cursive;
+	font-family: 'Rowdies', cursive;
 	color: white;
 	text-align: center;
 }
@@ -308,6 +331,64 @@ p{
 	width: 2.5%;
 	float: right;
 }
+#Port{
+	background-color: #191919;
+	position: absolute;
+	top: 212%;
+	width: 100%;
+	height: 250%;
+}
+
+@media screen and (max-width:1200px){
+	#content{
+		height: 150%;
+	}
+	.line{
+		height: 3%;
+	}
+	.circle{
+		width: 30%;
+		top: 11%;
+		left: 37%;
+	}
+	.content_text{
+		width: 100%;
+		height: 60%;
+		padding-top: 10%;
+	}
+	.content_text{
+		margin-top: 15%;
+	}
+	.content_text p1{
+		font-size: 210%;
+	}
+	.content_text p2{
+		font-size: 200%;
+	}
+	.content_text p3{
+		font-size: 145%;
+	}
+	#portfolio{
+		height: 200%;
+		top: 250%;
+	}
+	.pf_block_info p1{
+		font-size: 250%;
+	}
+	.pf_block_info p2{
+		font-size: 170%;
+	}
+	#block_info{
+		height: 120%;
+		top: 450%;
+	}
+	#block_info p1{
+		font-size: 230%;
+	}
+	#footer{
+		top: 570%;
+	}
+}
 
 @media screen and (max-width:1000px){
 	#header{
@@ -320,7 +401,7 @@ p{
 	}
 	.logo_anim{
 		left: 1%;
-		top: 30%;
+		top: 15%;
 	}
 	.logo_anim img{
 		width: 100%;
@@ -334,26 +415,12 @@ p{
 		height: 60%;
 		padding-top: 10%;
 	}
-	.content_text p1{
-		font-size: 110%;
-		font-family: 'Ubuntu', Regular;
-	}
-	.content_text p2{
-		font-size: 100%;
-		font-family: 'Silkscreen', cursive;
-	}
-	.content_text p3{
-		font-size: 50%;
-		font-family: 'Silkscreen', cursive;
+	.text_con{
+		margin-left: 5%;
+		width: 90%;
 	}
 	#portfolio p3{
 		font-size: 200%;
-	}
-	.circle{
-		position: absolute;
-		width: 40%;
-		top: 4%;
-		left: 10%;
 	}
 	.portf{
 		width: 55%;
@@ -374,20 +441,9 @@ p{
 		height: 70%;
 		text-align: center;
 	}
-	.pf_block_info p1{
-		font-size: 140%;
-		opacity: 1;
-	}
-	.pf_block_info p2{
-		font-size: 80%;
-		opacity: 1;
-	}
 	.pf_top{
 		width: 100%;
 		height: 10%;
-	}
-	#block_info{
-		height: 90% ;
 	}
 	.del{
 		width: 95%;
@@ -395,18 +451,16 @@ p{
 	}
 	.order{
 		position: absolute;
-		right: 0;
-		top: 85%;
+		left: 0;
+		top: 90%;
 		width: 100%;
 	}
 	.del_text{
+		margin-right: 5%;
 		margin-top: 3%;
 		float: right;
-		width: 100%;
+		width: 90%;
 		font-size: 70%;
-	}
-	#footer{
-		top: 452%;
 	}
 	p{
 		margin-top: 7%;
@@ -513,7 +567,7 @@ p{
 
   		color: white;
 
-  		font-family: 'Silkscreen', cursive;
+  		font-family: 'Rowdies', cursive;
   		font-size: 20px;
   		font-weight: 600;
 
@@ -527,3 +581,4 @@ p{
   		background-color: #CFD8DC;
 	}
 }
+
