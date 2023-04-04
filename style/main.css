@@ -213,21 +213,37 @@ a{
 	height: 100%;
 	left: 0;
 }
-.pf_block_info{
+.pf_block_info_1{
 	float: left;
 	width: 75%;
 	height: 100%;
 	text-align: center;
-	background-color: rgba(0,0,0,0.1);
-	transition: .7s ease-in-out;
 }
-.pf_block_info p1{
+.pf_block_info_1 p1{
 	font-size: 320%;
 	font-family: 'Rowdies', cursive;
 	color: white;
 	transition: 1s ease-in-out;
 }
-.pf_block_info p2{
+.pf_block_info_1 p2{
+	font-size: 150%;
+	font-family: 'Rowdies', cursive;
+	color: white;
+	transition: 1s ease-in-out;
+}
+.pf_block_info_2{
+	float: left;
+	width: 75%;
+	height: 100%;
+	text-align: center;
+}
+.pf_block_info_2 p1{
+	font-size: 320%;
+	font-family: 'Rowdies', cursive;
+	color: white;
+	transition: 1s ease-in-out;
+}
+.pf_block_info_2 p2{
 	font-size: 150%;
 	font-family: 'Rowdies', cursive;
 	color: white;
@@ -350,7 +366,14 @@ p{
 	width: 100%;
 	height: 250%;
 }
-
+.port_top{
+	width: 100%;
+	height: auto;
+	margin-top: 10%;
+}
+.Port_img{
+	height: 100%;
+}
 @media screen and (max-width:1200px){
 	#content{
 		height: 150%;
@@ -470,10 +493,6 @@ p{
 		float: left;
 		margin-left: 22.5%;
 		margin-top: 5%;
-	}
-	.pf_block{
-		width: 100%;
-		height: 30%;
 	}
 	.pf_block_img{
 		width: 50%;
