@@ -201,6 +201,9 @@ a{
 	width: 100%;
 	height: 20%;
 }
+.pf_block_mobi{
+	display: none;
+}
 .pf_block{
 	width: 100%;
 	height: 30%;
@@ -429,6 +432,19 @@ p{
 	#portfolio{
 		height: 200%;
 		top: 250%;
+	}
+	.pf_block{
+		display: none;
+	}
+	.pf_block_mobi{
+		display: block;
+		width: 90%;
+		height: 75%;
+		margin-left: 5%;
+	}
+	.pf_bl_mobi_img{
+		width: 100%;
+		margin-top: 30%;
 	}
 	.pf_block_info p1{
 		font-size: 220%;
