@@ -42,8 +42,16 @@ a{
 	padding-right: 3%;
 }
 .order_butt{
+	color: white;
+	border-radius: 0px;
 	outline: 1px solid #FFFFFF;
-	transition: .4s ease-in-out;
+	transition: .7s;
+	background-color: none;
+}
+.order_butt:hover{
+	color: black;
+	border-radius: 40px;
+	background-color: white;
 }
 .logo_anim{
 	position: absolute;
@@ -83,15 +91,7 @@ a{
 	background-color: #191919;
 	width: 100%;
 	height: 130%;
-
-}
-#content_pf{
-	position: absolute;
-	top: 100%;
-	background-color: #191919;
-	width: 100%;
-	height: 130%;
-
+	transition: 2s;
 }
 .circle{
 	position: absolute;
@@ -150,28 +150,33 @@ a{
 	text-align: center;
 	color: white;
 	padding-top: 10%;
-
-	//*background-color: white;*//
 }
 .text_con_pf{
 	margin-left: 25%;
 	width: 50%;
 }
 .content_text_pf p1{
+	color: white;
 	font-size: 300%;
 	font-family: 'Ubuntu', Regular;
+	transition: 2s;
 }
 .line_text_pf{
 	border-bottom: 3px solid #ccc;
 	padding-bottom: 1%;
+	transition: 2s;
 }
 .content_text_pf p2{
+	color: white;
 	font-size: 250%;
 	font-family: 'Rowdies', Regular;
+	transition: 2s;
 }
 .content_text_pf p3{
+	color: white;
 	font-size: 130%;
 	font-family: 'Rowdies', Regular;
+	transition: 2s;
 }
 #portfolio{
 	text-align: center;
@@ -384,6 +389,7 @@ p{
 	top: 212%;
 	width: 100%;
 	height: 500%;
+	transition: 2s;
 }
 .port_top{
 	width: 100%;
@@ -394,15 +400,41 @@ p{
 	width: 90%;
 	height: 90%;
 	margin-left: 5%;
-	background-color: black;
 }
 .Port_img_block{
+	margin-top: 10%;
 	width: 100%;
-	filter: grayscale(100%);
-	transition: all 2s;
+	transition:2s;
 }
-.Port_img_block:hover{
-	filter: none;
+#color-reset:hover #content{
+	background-color: #faf1e6;
+}
+#color-reset:hover #Port{
+	background-color: #faf1e6;
+}
+#color-reset:hover .content_text_pf p1{
+	color: black;
+}
+#color-reset:hover .line_text_pf{
+	border-bottom: 3px solid #000;
+}
+#color-reset:hover .content_text_pf p2{
+	color: black;
+}
+#color-reset:hover .content_text_pf p3{
+	color: black;
+}
+#port_light{
+	display: block;
+}
+#port_dark{
+	display: none;
+}
+#color-reset:hover #port_light{
+	display: none;
+}
+#color-reset:hover #port_dark{
+	display: block;
 }
 @media screen and (max-width:1200px){
 	#content{
